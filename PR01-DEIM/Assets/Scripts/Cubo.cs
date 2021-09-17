@@ -5,10 +5,10 @@ using UnityEngine;
 public class Cubo : MonoBehaviour
 {
 
-    int num1 = 1;
-    float num2 = 2.3f;
-    bool myBool = true;
-    string saludo = "Buenos Dias Programador";
+    public int num1 = 1;
+    public float num2 = 2.3f;
+    public bool myBool = true;
+    public string saludo = "Buenos Dias Programador";
 
 
 

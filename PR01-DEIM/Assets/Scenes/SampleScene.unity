@@ -331,6 +331,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9363eb951739d84e9fe3f94c5adb62d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  num1: 3
+  num2: 6.5
+  myBool: 1
+  saludo: Buenos Dias Programador
 --- !u!65 &1538285754
 BoxCollider:
   m_ObjectHideFlags: 0
