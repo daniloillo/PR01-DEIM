@@ -16,10 +16,10 @@ public class Cubo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        while (n <= 10)
+        for(; n<= 10;n++)
         {
             print(n);
-            n = n + 1;
+      
          
 
 
