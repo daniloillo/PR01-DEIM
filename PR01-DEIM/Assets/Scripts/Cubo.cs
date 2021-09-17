@@ -5,7 +5,7 @@ using UnityEngine;
 public class Cubo : MonoBehaviour
 {
 
-    public int n = 0;
+ 
   
 
 
@@ -15,27 +15,28 @@ public class Cubo : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
-        for(; n<= 20;n++)
+    {for(int n=1; n<=20;print (n))
         {
-            if (n % 2 == 0)
+            n = Random.Range(0,20);
+
+            if (n == 5)
             {
-                print(n + " es par");
 
+                print(n);
+                print("¡¡El Numero Buscado Era 5!!");
 
-
+                break;
+              
             }
-            else
-            {
-                print(n + " es impar");
-            }
-      
-         
-
+            
 
 
 
         }
+
+
+
+
        
  
 
