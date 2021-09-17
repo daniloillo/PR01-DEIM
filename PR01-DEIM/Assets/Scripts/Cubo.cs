@@ -18,10 +18,9 @@ public class Cubo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print(num1);
-        print(num2);
-        print("MyBool está en " + myBool);
-        print(saludo);
+        print(num1 + " " + saludo);
+        print("Mi numero favorito es el " + num2);
+        
 
 
 
