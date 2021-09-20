@@ -6,8 +6,8 @@ using UnityEngine;
 public class Cubo : MonoBehaviour
 {
 
- 
-  
+
+
 
 
 
@@ -18,7 +18,8 @@ public class Cubo : MonoBehaviour
     void Start()
     {
 
-        Saludo();
+        Saludo("Alvaro",25);
+        
 
 
 
@@ -37,32 +38,44 @@ public class Cubo : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {  
-        
-        
-
-
-
-
-
-
-
-
-    }
-
-    void Saludo()
     {
-        var Nombre = "Alvaro";
 
-        var Saludo = "Hola";
 
-        print(Saludo + " " + Nombre);
 
-        
 
-        
+
+
+
+
+
 
     }
+
+    void Saludo(string nombre,int edad)
+    {
+
+
+
+        print("Hola "+ nombre + ", tienes " + edad + " años");
+    }
+}
+
+        
+
+        
 
     
-}
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
