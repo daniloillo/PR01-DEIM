@@ -17,11 +17,11 @@ public class Cubo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Mates(3,9);
 
 
 
-       
+        Contador();
+
 
 
 
@@ -49,47 +49,100 @@ public class Cubo : MonoBehaviour
 
 
 
+
+
+
+
+
+
+
     }
 
-    void Mates( int num1, int num2)
+
+
+    void Contador()
     {
-        int r1 = (num1 + num2);
 
-        int r2 = (num1 - num2);
+        int n = 0;
 
-        bool myBool;
-        
-        
-
-
-        if (r2>=0)
+        for(; ;n++)
         {
-            myBool = true;
 
-            print(myBool);
-           
-            print(num1 + " - " + num2 + " = " + r2);
+
+
+            if (n < 10)
+            {
+
+                print("0" + n) ;
+
+
+
+
+
+
+            }
+            else
+            {
+
+                print(n);
+
+
+            }
+
+
+
+
+
+            if (n == 59)
+            {
+
+
+
+                break;
+            }
+
+
+            
+
+
+
+
+
 
 
 
 
 
         }
-        else
-        {
-            myBool = false;
-
-            print(myBool);
-
-            print(num1 + " + " + num2 + " = " + r1);
 
 
-
-        }
+        
 
 
 
 
+
+
+
+
+
+
+
+    }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+ }
       
 
 
@@ -98,10 +151,10 @@ public class Cubo : MonoBehaviour
 
 
 
-    }
+    
 
     
-}
+
 
         
 
