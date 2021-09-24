@@ -17,11 +17,11 @@ public class Cubo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        Saludo("Alvaro",25);
-        
+        Mates(3,9);
 
 
+
+       
 
 
 
@@ -51,13 +51,56 @@ public class Cubo : MonoBehaviour
 
     }
 
-    void Saludo(string nombre,int edad)
+    void Mates( int num1, int num2)
     {
+        int r1 = (num1 + num2);
+
+        int r2 = (num1 - num2);
+
+        bool myBool;
+        
+        
+
+
+        if (r2>=0)
+        {
+            myBool = true;
+
+            print(myBool);
+           
+            print(num1 + " - " + num2 + " = " + r2);
 
 
 
-        print("Hola "+ nombre + ", tienes " + edad + " años");
+
+
+        }
+        else
+        {
+            myBool = false;
+
+            print(myBool);
+
+            print(num1 + " + " + num2 + " = " + r1);
+
+
+
+        }
+
+
+
+
+      
+
+
+
+
+
+
+
     }
+
+    
 }
 
         
